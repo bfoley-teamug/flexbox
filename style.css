@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1.35em;
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+	background: #c1f0fd;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+img {
+   padding: 2px;
+   border: 1px solid violet;
+   
+}
+
+h1 {
+    text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;
+}
+
+.container {
+	padding: 10px;
+	background: #fff;
+  border-radius: 5px;
+	margin: 45px auto;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+  
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+	padding: 15px;
+	margin: 5px;	
+	border-radius: 3px;
+}
+
+
+ 
+
