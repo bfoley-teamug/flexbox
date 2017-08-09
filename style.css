@@ -6,19 +6,19 @@ body {
 	font-size: 1.35em;
 	font-family: 'Varela Round', sans-serif;
 	color: white;
-	background: #c1f0fd;
+	background: lightblue;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 
 img {
    padding: 2px;
-   border: 1px solid violet;
+   border: 1px solid dodgerblue;
    
 }
 
 h1 {
-    text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;
+    text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
 }
 
 .container {
@@ -35,11 +35,16 @@ h1 {
 }
 
 .item {
+  flex-grow: 1; 
 	padding: 15px;
 	margin: 5px;	
 	border-radius: 3px;
 }
 
-
+.item-6 {
+  flex-grow: 3; 
+}
+.item-7 {
+  flex-grow: 2; 
+}
  
-
